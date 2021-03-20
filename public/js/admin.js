@@ -118,7 +118,7 @@ function addQuestion(dbid){
     let updateButton = document.createElement('button');
     updateButton.textContent = "Update To Database"
     updateButton.setAttribute('id', 'quote-btn-'+quoteCounter)
-    updateButton.setAttribute('onclick','updateQuote('+null+','+ quoteCounter +','+true+')')
+    updateButton.setAttribute('onclick','updateQuote('+null+','+ quoteCounter +',)')
     quoteDiv.appendChild(updateButton);
     let deleteButton = document.createElement('button');
     deleteButton.textContent = "Delete Quote"
