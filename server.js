@@ -3,7 +3,7 @@ const mysql = require('mysql');
 const express = require('express');
 const router = express.Router();
 const app = express();
-const port = 3001
+const port = process.env.PORT || 3000
 const con = mysql.createPool({
   connectionLimit : 10,
   host: 'us-cdbr-east-03.cleardb.com',
@@ -96,5 +96,5 @@ app.get('/API/v1/quotes/1', (req,res) => {
   })
 })
 
-app.listen(port || process.env.PORT , () => console.info('Listening on port ' + port))
+app.listen(port, () => console.info('Listening on port ' + port))
 

@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/wueddyw/COMP4537-Individual-Assignment-/issues"
   },
+  "engines": {
+    "node": "14.15.4"
+  },
   "homepage": "https://github.com/wueddyw/COMP4537-Individual-Assignment-#readme"
 }
