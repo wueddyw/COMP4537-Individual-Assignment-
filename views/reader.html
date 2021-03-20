@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/reader.css">
+        <title>COMP4537</title>
+    </head>
+    <body onload = "init()">
+        
+        <h1>Quotes</h1>
+        <button onclick="getRecentQuote()" id = "latestQuoteBtn">Latest Quote</button>
+        <div id ="newQuestion"></div>
+
+        <footer>
+            <div class = "home-btn-contianer">
+                <button onclick="location.href='/'" type="button" class = "home-btn">Home</button>
+            </div>
+        </footer>  
+        <script src="js/reader.js"></script>
+    </body>
+</html>  

@@ -1,0 +1,36 @@
+body {
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#407294;
+    margin:0;
+    margin-left:10px;
+    margin-top:10px;
+}
+h4{
+    color:maroon;
+}
+h1{
+    color:white;
+}
+p{
+    color:white;
+}
+
+textarea{
+    color:black;
+}
+input{
+    color: black;
+}
+.home-btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 4px;
+}
