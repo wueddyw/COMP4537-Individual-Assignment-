@@ -80,14 +80,14 @@ function getRecentQuote(){
                 div.after(linebreak4);
                 let quoteBox = document.createElement('p')
                 quoteBox.setAttribute('id', "quote" + i);
-                quoteBox.textContent = data[0].author;
+                quoteBox.textContent = data[0].quote;
                 div.after(quoteBox);
                 let h4Quote = document.createElement('h4');
                 h4Quote.textContent = "Latest Quote:";
                 div.after(h4Quote)
                 let authorInput = document.createElement('p');
                 authorInput.setAttribute('id', "author"+ i);
-                authorInput.textContent = data[0].quote;
+                authorInput.textContent = data[0].author;
                 div.after(authorInput);
                 let h4 = document.createElement('h4');
                 h4.textContent = "Latest Author:";

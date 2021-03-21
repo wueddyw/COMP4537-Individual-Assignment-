@@ -33,7 +33,7 @@ function loadQuestions(){
         authorInput.setAttribute('style', 'width: 340px;');
         authorInput.setAttribute('style', 'color : black;');
         authorInput.setAttribute('id', "author"+ i);
-        authorInput.value = quoteData[i].quote;
+        authorInput.value = quoteData[i].author;
         quoteDiv.appendChild(authorInput);
         let linebreak = document.createElement("br");
         let linebreak2 = document.createElement("br");
@@ -48,7 +48,7 @@ function loadQuestions(){
         quoteBox.setAttribute('rows', '4');
         quoteBox.setAttribute('cols', '50');
         quoteBox.setAttribute('id', "quote" + i);
-        quoteBox.value = quoteData[i].author;
+        quoteBox.value = quoteData[i].quote;
         quoteDiv.appendChild(quoteBox);
         quoteDiv.appendChild(linebreak3); 
         quoteDiv.appendChild(linebreak4); 
